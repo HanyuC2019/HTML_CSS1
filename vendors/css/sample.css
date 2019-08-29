@@ -1,0 +1,98 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+.main-header {
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+
+/* ここから */
+header {
+  background-color: #696969;
+  font-size: 0.8rem;
+}
+header ul {
+  height: 50px;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px;
+}
+header ul a {
+  color: white;
+  text-decoration: none;
+  line-height: 50px;
+}
+header li {
+  list-style: none;
+  width: 100px;　//DIV區塊寬度
+  padding: 40px
+  line-height: 0px;　//DIV區塊高度
+  padding: 20px;　//DIV區塊內距，參閱：CSS padding 內距。
+  border: 2px blue solid;　//DIV區塊邊框，參閱：CSS border 邊框設計。
+  margin-right:10px;　//靠右外距，參閱：CSS margin 邊界使用介紹範例教學。
+}
+.left {
+  float:left;
+}
+.right {
+  float: right;
+}
+header ul:after {
+}
+/* ここまでがheader部分の実装 */
+
+.main-header img {
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+  width: 15%;
+  float: middle;
+  margin: 160px;
+}
+
+.about {
+/* About Achieve部分の実装 */
+}
+
+/* ここから */
+.function {
+  background-color: lightgray;
+  padding: 50px;
+}
+
+.function-images {
+  padding: 100px;
+  display: flex;
+  justify-content: space-evenly; /* 平均四張圖 */
+  position: relative;
+  left: 80px;
+}
+
+
+.function-image {
+  float: left;
+  margin-right: 100px;
+}
+/* ここまでがfunction部分の実装 */
+
+
+footer {
+/* footer部分の実装 */
+  height: 80px;
+  position: relative;
+  color: white;
+  font-size: 0.8rem;
+  background-color: darkslategray;
+  line-height: 10px;
+  padding: 10px;
+}
